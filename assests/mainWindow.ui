@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>995</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="buttonsFrame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1001</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="benfitsButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+text-align:center;
+qproperty-icon:url(&quot;assests/people.png&quot;);
+qproperty-iconSize: 30px;
+background-color:transparent;
+border:1px solid black;
+font: 16pt &quot;Arial&quot;;
+}
+
+
+QPushButton:hover {background-color:#c8c8c8;}
+
+</string>
+    </property>
+    <property name="text">
+     <string>المستفيدين</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="donationsButton">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>0</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+text-align:center;
+qproperty-icon:url(&quot;assests/person.png&quot;);
+qproperty-iconSize: 30px;
+background-color:transparent;
+border:1px solid black;
+font: 16pt &quot;Arial&quot;;
+}
+
+
+QPushButton:hover {background-color:#c8c8c8;}
+
+</string>
+    </property>
+    <property name="text">
+     <string>المتبرعين</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="showTripsButton">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>0</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+text-align:center;
+qproperty-icon:url(&quot;assests/kaaba.png&quot;);
+qproperty-iconSize: 30px;
+background-color:transparent;
+border:1px solid black;
+font: 16pt &quot;Arial&quot;;
+}
+
+
+QPushButton:hover {background-color:#c8c8c8;}
+
+</string>
+    </property>
+    <property name="text">
+     <string>اظهار الرحل</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="statsButton">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>0</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+text-align:center;
+qproperty-icon:url(&quot;assests/bar-chart.png&quot;);
+qproperty-iconSize: 30px;
+background-color:transparent;
+border:1px solid black;
+font: 16pt &quot;Arial&quot;;
+}
+
+
+QPushButton:hover {background-color:#c8c8c8;}
+
+</string>
+    </property>
+    <property name="text">
+     <string>احصائيات</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="programmerButton">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>0</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+text-align:center;
+qproperty-icon:url(&quot;assests/programming.png&quot;);
+qproperty-iconSize: 30px;
+background-color:transparent;
+border:1px solid black;
+font: 16pt &quot;Arial&quot;;
+}
+
+
+QPushButton:hover {background-color:#c8c8c8;}
+
+</string>
+    </property>
+    <property name="text">
+     <string>برمجة وتطوير</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="mainFrame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>1001</width>
+     <height>640</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:black</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>170</y>
+      <width>781</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>logo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
